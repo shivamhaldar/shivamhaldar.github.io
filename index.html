@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Shivam Haldar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+       .waveform {
+    --uib-size: 40px;
+    --uib-speed: 1s;
+    --uib-color: blue;
+    --uib-line-weight: 3.5px;
+    
+    padding: 23% 48%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: var(--uib-size);
+    height: calc(var(--uib-size) * 0.9);
+  }
+  
+  .waveform__bar {
+    width: var(--uib-line-weight);
+    height: 100%;
+    background-color: var(--uib-color);
+  }
+  
+  .waveform__bar:nth-child(1) {
+    animation: grow var(--uib-speed) ease-in-out
+      calc(var(--uib-speed) * -0.45) infinite;
+  }
+  
+  .waveform__bar:nth-child(2) {
+    animation: grow var(--uib-speed) ease-in-out
+      calc(var(--uib-speed) * -0.3) infinite;
+  }
+  
+  .waveform__bar:nth-child(3) {
+    animation: grow var(--uib-speed) ease-in-out
+      calc(var(--uib-speed) * -0.15) infinite;
+  }
+  
+  .waveform__bar:nth-child(4) {
+    animation: grow var(--uib-speed) ease-in-out infinite;
+  }
+  
+  @keyframes grow {
+    0%,
+    100% {
+      transform: scaleY(0.3);
+    }
+  
+    50% {
+      transform: scaleY(1);
+    }
+  }
+  
+       
+     </style>
+   
+    </head>
+<body>
+  <!--
+  <div id="bg">
+    <img src="Images/bcg1.jpg" alt="background">
+  </div>
+  -->
+<div class="waveform">
+    <div class="waveform__bar"></div>
+    <div class="waveform__bar"></div>
+    <div class="waveform__bar"></div>
+    <div class="waveform__bar"></div>
+</div>
+  
+
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/shivam_0088"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/shivam_0088"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Shivam Haldar</div>
+       <div class="text-three">Web-Developer & UI Designer</div>
+       <div class="text-four"></div>
+     </div>
+     <div class="button">
+       <button>From Noida</button>
+     </div>
+   </div>
+ </section>
+
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/shivam.jpg" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Web-Developer & UI Designer</div>
+      <p>My Name is Shivam Haldar </br>
+      I'm an undergraduate student pursuing a bachelor degree in Computer science.
+  I am good at learning new skills in the 
+field of web-development and UI design.</p>
+      <div class="button">
+        <a href="https://www.linkedin.com/in/shivamhaldar"><button>Linked-In</button></a>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills Reflects Our Knowledge :</div>
+       <p>
+
+       </p>
+       
+     </div>
+     <div class="boxes">
+      <div class="box">
+        <div class="topic">C</div>
+        <div class="per" style="width: 70%;">70%</div>
+      </div>
+      <div class="box">
+        <div class="topic">C++</div>
+        <div class="per" style="width: 65%;">65%</div>
+      </div>
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per" style="width: 90%;">90%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per" style="width: 80%;">80%</div>
+       </div>
+       <div class="box">
+         <div class="topic">WordPress</div>
+         <div class="per" style="width: 60%;">60%</div>
+       </div>
+       <div class="box">
+         <div class="topic">PHP</div>
+         <div class="per" style="width: 60%;">60%</div>
+       </div>
+       <div class="box">
+        <div class="topic">JAVA</div>
+        <div class="per" style="width: 70%;">70%</div>
+      </div>
+      <div class="box">
+        <div class="topic">Python</div>
+        <div class="per" style="width: 75%;">75%</div>
+      </div>
+       
+     </div>
+   </div>
+ </div>
+</section>
+
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Certificates</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Cisco Networking</div>
+       <img src="Images/6.png" style="width: 100%;">
+       </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-paint-brush"></i>
+       </div>
+       <div class="topic">Python</div>
+       <img src="Images/coursera.png" style="width: 100%;">
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-chart-line"></i>
+       </div>
+       <div class="topic">Guvi</div>
+       <img src="Images/7.png" style="width: 100%;">
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-android"></i>
+       </div>
+       <div class="topic">C++</div>
+       <a href="https://bit.ly/3qRCOaz"><img src="Images/1.png" style="width: 100%;"></a>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-camera-retro"></i>
+       </div>
+       <div class="topic">HTML / CSS</div>
+         <img src="Images/html.png" style="width: 100%;">
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tablet-alt"></i>
+       </div>
+       <div class="topic">Java</div>
+       <img src="Images/2.png" style="width: 100%;">
+     </div>
+   </div>
+   </div>
+ </section>
+
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>   Thanks for Visiting   </span></div>
+    <div class="text">
+      <div class="topic"></div>
+      <div class="button">
+        <a href="https://bit.ly/3HJPp57"><button>Download CV</button></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">SHIVAM HALDAR</a> | 2023 All Rights Are Usefull</span>
+  </div>
+</footer>
+
+<script>
+  document.onreadystatechange = function() {
+      if (document.readyState !== "complete") {
+          document.querySelector(
+            "body").style.visibility = "hidden";
+          document.querySelector(
+            ".waveform").style.visibility = "visible";
+      } else {
+          document.querySelector(
+            ".waveform").style.display = "none";
+          document.querySelector(
+            "body").style.visibility = "visible";
+      }
+  };
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
