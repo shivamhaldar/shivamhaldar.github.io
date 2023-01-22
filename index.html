@@ -6,76 +6,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <style>
-       .waveform {
-    --uib-size: 40px;
-    --uib-speed: 1s;
-    --uib-color: blue;
-    --uib-line-weight: 3.5px;
-    
-    padding: 23% 48%;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
-    width: var(--uib-size);
-    height: calc(var(--uib-size) * 0.9);
-  }
+  </head>
   
-  .waveform__bar {
-    width: var(--uib-line-weight);
-    height: 100%;
-    background-color: var(--uib-color);
-  }
-  
-  .waveform__bar:nth-child(1) {
-    animation: grow var(--uib-speed) ease-in-out
-      calc(var(--uib-speed) * -0.45) infinite;
-  }
-  
-  .waveform__bar:nth-child(2) {
-    animation: grow var(--uib-speed) ease-in-out
-      calc(var(--uib-speed) * -0.3) infinite;
-  }
-  
-  .waveform__bar:nth-child(3) {
-    animation: grow var(--uib-speed) ease-in-out
-      calc(var(--uib-speed) * -0.15) infinite;
-  }
-  
-  .waveform__bar:nth-child(4) {
-    animation: grow var(--uib-speed) ease-in-out infinite;
-  }
-  
-  @keyframes grow {
-    0%,
-    100% {
-      transform: scaleY(0.3);
-    }
-  
-    50% {
-      transform: scaleY(1);
-    }
-  }
-  
-       
-     </style>
-   
-    </head>
 <body>
   <!--
   <div id="bg">
     <img src="Images/bcg1.jpg" alt="background">
   </div>
   -->
-<div class="waveform">
-    <div class="waveform__bar"></div>
-    <div class="waveform__bar"></div>
-    <div class="waveform__bar"></div>
-    <div class="waveform__bar"></div>
-</div>
-  
-
   <nav>
     <div class="navbar">
       <div class="logo"><a href="#">Portfolio</a></div>
@@ -251,22 +189,6 @@ field of web-development and UI design.</p>
     <span>Created By <a href="#">SHIVAM HALDAR</a> | 2023 All Rights Are Usefull</span>
   </div>
 </footer>
-
-<script>
-  document.onreadystatechange = function() {
-      if (document.readyState !== "complete") {
-          document.querySelector(
-            "body").style.visibility = "hidden";
-          document.querySelector(
-            ".waveform").style.visibility = "visible";
-      } else {
-          document.querySelector(
-            ".waveform").style.display = "none";
-          document.querySelector(
-            "body").style.visibility = "visible";
-      }
-  };
-</script>
 
 <script src="script.js"></script>
 </body>
