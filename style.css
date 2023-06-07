@@ -179,21 +179,7 @@ nav.sticky .menu-btn{
   margin-left: -3px;
 }
 .home .text-two design{
-  background-color: #2f65fa;
-  
-  /* Create the gradient. */
-  background-image: #2f65fa;
-  
-  /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
-
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  color: #4070f4;
 }
 .home .text-three{
   font-size: 40px;
