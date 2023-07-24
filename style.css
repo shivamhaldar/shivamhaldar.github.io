@@ -194,24 +194,20 @@ nav.sticky .menu-btn{
 .home .button{
   margin: 14px 0;
 }
+
 .home .button button{
-  outline: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-size: 25px;
-  font-weight: 400;
   background: #4070f4;
-  color: #fff;
   cursor: none;
-  border: 2px solid transparent;
-  transition: all 0.4s ease;
-}
+  }
 .home .button button:hover{
+  color: #ffffff;
+  transform: scale(1.02);
   border-color: #4070f4;
   background-color: #fff;
   color: #4070f4;
   cursor: none;
 }
+
 section{
   padding-top: 40px;
 }
@@ -291,6 +287,7 @@ section .button button{
   transition: all 0.4s ease;
 }
 section .button button:hover{
+  transform: scale(1.02);
   border-color: #4070f4;
   background-color: #fff;
   color: #4070f4;
@@ -373,6 +370,7 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
+  transform: scale(1.03);
   background: #4070f4;
   color: #fff;
   cursor: none;
